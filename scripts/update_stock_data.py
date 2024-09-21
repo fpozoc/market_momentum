@@ -8,10 +8,10 @@ the existing data by appending any new data from the last available date.
 Progress is displayed using `tqdm`, showing the percentage of CSV files processed.
 
 Usage:
-    python update_stock_data.py <csv_directory>
+    python scripts/update_stock_data.py <csv_directory>
 
 Example:
-    python update_stock_data.py data/stock_data
+    python scripts/update_stock_data.py data/stock_data
 
 This will update stock data for all CSV files in the `data/stock_data` folder.
 
