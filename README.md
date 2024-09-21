@@ -51,13 +51,13 @@ Download and use these symbols in your stock analysis workflow.
 
 ## Requirements
 
-	•	pandas
-	•	tqdm
-	•	yfinance
-	•	matplotlib
-	•	mplfinance
-	•	talib
-	•	argparse
+pandas
+tqdm
+yfinance
+matplotlib
+mplfinance
+talib
+argparse
 
 Install the dependencies with:
 
