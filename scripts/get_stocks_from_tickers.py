@@ -13,13 +13,13 @@ Each line in the text file is expected to contain a stock symbol followed by a d
 separated by a tab. The first line (header) is ignored.
 
 Usage:
-    python get_stocks_from_tickers.py <tickers_file> <output_folder>
+    python scripts/get_stocks_from_tickers.py <tickers_file> <output_folder>
 
     - `<tickers_file>`: Path to the text file containing stock tickers (e.g., NASDAQ.txt).
     - `<output_folder>`: Path to the folder where the CSV file should be saved.
 
 Example:
-    python get_stocks_from_tickers.py data/tickers/NASDAQ.txt data/stock_data
+    python scripts/get_stocks_from_tickers.py data/tickers/NASDAQ.txt data/stock_data
 
 This will download the stock data for the first symbol in NASDAQ.txt and save it as a CSV file 
 in the `data/stock_data` folder.

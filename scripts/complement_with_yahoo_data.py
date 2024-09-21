@@ -24,10 +24,10 @@ Install dependencies:
 pip install pandas yfinance tqdm argparse
 
 Usage:
-    python complement_with_yahoo_data.py --input_file <path_to_input_file> --output_file <path_to_output_file>
+    python scripts/complement_with_yahoo_data.py --input_file <path_to_input_file> --output_file <path_to_output_file>
 
 Example:
-    python complement_with_yahoo_data.py --input_file data/tickers/NASDAQ.txt --output_file data/complemented_fundamentals_yahoo_data.csv
+    python scripts/complement_with_yahoo_data.py --input_file data/tickers/NASDAQ.txt --output_file data/complemented_fundamentals_yahoo_data.csv
 
 This will load stock descriptions from `data/tickers/NASDAQ.txt`, fetch additional data from Yahoo Finance, 
 and save the results to `data/complemented_fundamentals_yahoo_data.csv`.
