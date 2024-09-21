@@ -1,8 +1,0 @@
-pandas
-tqdm
-yfinance
-matplotlib
-mplfinance
-TA-Lib
-ta
-argparse
